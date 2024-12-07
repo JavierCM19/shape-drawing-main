@@ -54,6 +54,7 @@ class Triangle extends Shape {
         const triangle = document.createElement('div');
         triangle.className = 'shape triangle';
         triangle.style.borderBottomColor = this.color;
+        triangle.style.backgroundColor = 'white';
         return triangle;
     }
 }
